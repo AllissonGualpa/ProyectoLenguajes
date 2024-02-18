@@ -25,15 +25,11 @@
     <tr>
       <th scope="row">2</th>
      
-      <td>Comedia</td>
-      <td><button>Seleccion</button></td>
+      <td>Peliculas</td>
+      <td><button>Seleccion</button> <a href="/peliculas">hola</a></td>
       
     </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Ciencia F</td>
-      <td><button>Seleccion</button></td>
-    </tr>
+    
   </tbody>
 </table>
 

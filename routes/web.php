@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoriaController;
+use App\Http\Controllers\PeliculasController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -26,6 +27,13 @@ Route::resource('categorias', CategoriaController::class);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('peliculas', PeliculaController::class);
+Auth::routes();
 
 Auth::routes();
 
