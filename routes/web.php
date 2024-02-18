@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoriaController;
-use App\Http\Controllers\PeliculasController;
+use App\Http\Controllers\PeliculaController;
 use Illuminate\Support\Facades\Route;
 
 
