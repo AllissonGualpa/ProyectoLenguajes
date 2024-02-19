@@ -48,7 +48,7 @@
                                         <th>Nombre</th>
                                         <th>Año</th>
                                         <th>Descripción</th>
-                                        <th>Categoria Id</th>
+                                        <th>Categoría</th>
                                         <th></th>
                                     </tr>
                                 </thead>
